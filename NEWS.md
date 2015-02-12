@@ -8,6 +8,8 @@
 
   - New `posix.sys.socket.getsockname` binding.
 
+  - Remove the `posix.bit32` library, and use Lua’s built-in `bit32` library.
+
 ### Bugs Fixed
 
    - `posix.sys.resource` only provides RLIM_SAVED_CUR nor RLIM_SAVED_MAX if
